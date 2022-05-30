@@ -5,12 +5,14 @@ Visualisation des votes "dissidents" des conseiller nationaux par rapport à leu
 
 ## Données
 ### Acquisition des donées
-Les votes des conseillers nationaux sont en libre téléchargement en format XLS sur [Banque de données sur le détail des votes](https://www.parlament.ch/fr/ratsbetrieb/abstimmungen/abstimmung-nr-xls)
+Les votes des conseillers nationaux sont en libre téléchargement en format XLS sur le site du [parlement suisse](https://www.parlament.ch/fr/ratsbetrieb/abstimmungen/abstimmung-nr-xls).
 
 ### Traitement des données
-Suite 
+La première étape a été de compter pour chaque groupe parlementaire et pour chaque votation, le nombre de voix exprimées en faveur du texte, en sa défaveur et le nombre d'abstention. Il a fallu ensuite déterminer quelle sous-groupe _(Oui / Non / Abstention)_ a receuilli le plus grand nombre de voix au sein de chaque groupe parlementaire afin de pouvoir déduire les personnes ayant exprimé une divergence. La dernière étape a été de dégager l'existence ou non d'une "consigne de vote" (voir [##Méthodologie]) 
 
 ## Outils utilisés
+
+## Méthodologie
 
 ## Contexte du projet
 Ce projet a été réalisé par Théo Rochat dans le cadre du cours de _Visualisation de données (SP22)_ donné par Isaac Pante à l'Université de Lausanne.
