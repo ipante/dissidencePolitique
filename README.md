@@ -3,6 +3,9 @@ Visualisation des votes "dissidents" des conseiller nationaux par rapport à leu
 
 ## Description
 
+![alt text](img/img1 "exemple")
+
+
 ## Données
 ### Acquisition des donées
 Les votes des conseillers nationaux sont en libre téléchargement en format XLS sur le site du [parlement suisse](https://www.parlament.ch/fr/ratsbetrieb/abstimmungen/abstimmung-nr-xls).
