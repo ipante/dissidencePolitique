@@ -13,13 +13,18 @@ Pour plus d'informations le fichier j'ai déposé en guise d'exemple les résult
 
 ## Méthodologie
 ### Détérmination de l'existence ou de l'absence d'un avis majoritaire 
-Dans l'optique de ne comptabiliser que les personnes ayant votés différement d'une supposée consigne de vote ou _a minima_ différement de l'avis majoritaire du groupe parlementaire auqel ils appartiennent, il était nécessaire de définir un seuil en dessous duquel les voix étaient trop dispersées pour considérer qu'un avis majoritaire existait à l'intérieur du groupe. Pour chaque vote est donc calculé un taux de dispersion des voix : il s'agit du nombre de votes exprimés dans le sens majortaire par rapport au nombre de votes exprimés total.
+Dans l'optique de comptabiliser uniquement les personnes ayant votés différement de la consigne de vote ou _a minima_ différement de l'avis majoritaire du groupe parlementaire auqel ils appartiennent, il était nécessaire de définir un seuil en dessous duquel les voix étaient trop dispersées pour considérer qu'un avis majoritaire existait. Pour chaque vote est donc calculé un taux de dispersion des voix : il s'agit du nombre de votes exprimés dans le sens majortaire par rapport au nombre de votes exprimés total. Si ce taux de dispersion était supérieur à 34% j'ai alors considéré qu'il n'y avait aucun avis majoritaire au sein d'un groupe parlementaire et que les voix divergentes ne seraient pas comptabilisées.
 
-## Outils utilisés
+### Coefficient de participation
+Tous les membres du conseil national ne votent pas autant de fois durant un mandat. Il arrive que des conseillers nationaux quittent le parlement en cours de législature auquel cas ils sont remplacé, généralement dès la session parlementaire suivante. A cela s'ajoute l'existence d'une présidence tournante du conseil national qui empêche la personne en poste de voter. Pour classer les parlementaires sur un pied d'égalité, le nombre de votes dissidents a été multiplié par un "coefficient de participation" calculé comme suit : le nombre de votes total (3609) divisé par le nombre d'occasion qu'a eu un parlementaire pour voter. Les absences, qu'elles soient justifiées ou non, ne rentre pas dans le calcul de ce coefficient. Pour les détails voir [CSV final](51_csv_final.csv).
 
-
-## Limites
+### Limites
 Abstention =pas Non sauf que dans mon projet oui
+
+## Procédure d'installation
+
+### Outils utilisés utilisés
+
 
 ## Contexte du projet
 Ce projet a été réalisé par Théo Rochat dans le cadre du cours de _Visualisation de données (SP22)_ donné par Isaac Pante à l'Université de Lausanne.
