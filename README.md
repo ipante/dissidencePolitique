@@ -29,6 +29,11 @@ Abstention =pas Non sauf que dans mon projet oui
 ### Outils utilisés utilisés
 <a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
 
+
+
+
+
+
 ## Contexte du projet
 Ce projet a été réalisé par Théo Rochat dans le cadre du cours de _Visualisation de données (SP22)_ donné par Isaac Pante à l'Université de Lausanne.
 
