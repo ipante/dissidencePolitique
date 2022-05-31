@@ -23,3 +23,4 @@ Abstention =pas Non sauf que dans mon projet oui
 
 ## Contexte du projet
 Ce projet a été réalisé par Théo Rochat dans le cadre du cours de _Visualisation de données (SP22)_ donné par Isaac Pante à l'Université de Lausanne.
+
