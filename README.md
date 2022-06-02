@@ -9,15 +9,18 @@ Visualisation des votes "dissidents" des conseiller nationaux par rapport à leu
 ## Données
 ### Acquisition des donées
 Les votes des conseillers nationaux sont en libre téléchargement en format XLS sur le site du [parlement suisse](https://www.parlament.ch/fr/ratsbetrieb/abstimmungen/abstimmung-nr-xls).
-| Éléments | Nombre |
-|:--------:|:------:|
-|Conseillers nationaux de la 51ème législature|207     |
-|Votations à l'intérieur du conseil national|3'609     |
-|Toal des votes dissidents comptabilisés    |18'202      |
 
 ### Traitement des données
 La première étape a été de compter pour chaque groupe parlementaire et pour chaque votation, le nombre de voix exprimées en faveur du texte, en sa défaveur et le nombre d'abstention. Il a fallu ensuite déterminer quelle sous-groupe _(Oui / Non / Abstention)_ a receuilli le plus grand nombre de voix au sein de chaque groupe parlementaire afin de pouvoir déduire les personnes ayant exprimé une divergence. La dernière étape a été de dégager l'existence ou non d'une "consigne de vote" (cf [méthodologie](#Méthodologie)) pour ensuite créer la liste des personnes s'étant exprimés contre celle-ci. 
 Pour plus d'informations le fichier j'ai déposé en guise d'exemple les résultats de mon analyse pour la [13ème session parlementaire](5113_prêt.xlsb.xlsx).
+
+### Quelques nombres 
+| Éléments | Nombre |
+|:--------:|:------:|
+|Sessions parlementaires comptabilisées |13     |
+|Conseillers nationaux de la 51ème législature|207     |
+|Votations à l'intérieur du conseil national|3'609     |
+|Toal des votes dissidents comptabilisés    |18'202      |
 
 ## Méthodologie
 ### Détérmination de l'existence ou de l'absence d'un avis majoritaire 
@@ -33,6 +36,7 @@ Abstention =pas Non sauf que dans mon projet oui
 
 ### Outils utilisés utilisés
 <a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
+Le traitement des données s'est fait via excel et la visualisation a été réalisée en utilisant la librairie [d3.js](https://d3js.org/).
 
 
 
