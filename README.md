@@ -38,7 +38,7 @@ Quelques limites du projet un peu en vrac :
 
 ## Procédure d'installation
 1. Installer [Visual Studio Code](https://code.visualstudio.com/) et l'extension Live Server.
-2. Télécharger les fichiers [index.html](index.html), [script.js](script.js), [style.css](style.css) et [51_csv_final.csv](51_csv_final.csv).
+2. Télécharger les fichiers [index.html](index.html), [script.js](script.js), [style.css](style.css) et [51_csv_final.csv](Données/51_csv_final.csv).
 3. Ouvrir ces fichiers via Visual Studio Code.
 4. Ouvrir "index.html" dans un navigateur Internet via le bouton _go live_.
 
