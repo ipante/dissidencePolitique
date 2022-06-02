@@ -30,19 +30,23 @@ Dans l'optique de comptabiliser uniquement les personnes ayant votés différeme
 Tous les membres du conseil national ne votent pas autant de fois durant un mandat. Il arrive que des conseillers nationaux quittent le parlement en cours de législature auquel cas ils sont remplacé, généralement dès la session parlementaire suivante. A cela s'ajoute l'existence d'une présidence tournante du conseil national qui empêche la personne en poste de voter. Pour classer les parlementaires sur un pied d'égalité, le nombre de votes dissidents a été multiplié par un "coefficient de participation" calculé comme suit : le nombre total de votations (3609) divisé par le nombre d'occasion qu'a eu chaque parlementaire pour voter. Les absences, qu'elles soient justifiées ou non, ne rentre pas dans le calcul de ce coefficient. Pour les détails voir [CSV final](51_csv_final.csv).
 
 ### Limites
-Abstention =pas Non sauf que dans mon projet oui
+Quelques limites du projet un peu en vrac :
+  - S'abstenir ou voter l'inverse de son parti n'ont pas la même signification en politique mais sont comptabilisés pareil dans le projet.
+  - La visualisation est un peu concentrée à cause des valeurs extrêmes des trois membres du parti évangélique suisse qui font partie du groupe M-E (le groupe du PDC). Les autres membres de "petits partis" à l'intérieur des groupes parlemenaires n'ont toutefois pas automatiquement des nombres de votes dissidents extrêmes. 
+  - La détermination de l'existence d'un avis majoriataire est arbitraire. J'ai choisi 66% après avoir consulté mon entourage et des politiciens locaux mais un autre seuil aurait été envisageable. 
+  - 
 
 ## Procédure d'installation
+1. Installer Visual Studio Code et l'extension Live Server.
+2.
+3.
+4.Ouvrir le fichier "index.html" dans un navigateur Internet.
+
 
 ## Outils utilisés utilisés
 <a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
 Le traitement des données s'est fait via excel et la visualisation a été réalisée en utilisant la librairie [d3.js](https://d3js.org/).
 
 
-
-
-
-
 ## Contexte du projet
 Ce projet a été réalisé par Théo Rochat dans le cadre du cours de _Visualisation de données (SP22)_ donné par Isaac Pante à l'Université de Lausanne.
-
