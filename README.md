@@ -34,7 +34,7 @@ Abstention =pas Non sauf que dans mon projet oui
 
 ## Procédure d'installation
 
-### Outils utilisés utilisés
+## Outils utilisés utilisés
 <a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
 Le traitement des données s'est fait via excel et la visualisation a été réalisée en utilisant la librairie [d3.js](https://d3js.org/).
 
