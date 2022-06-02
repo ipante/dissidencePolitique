@@ -37,16 +37,14 @@ Quelques limites du projet un peu en vrac :
   - 
 
 ## Procédure d'installation
-1. Installer Visual Studio Code et l'extension Live Server.
-2.
-3.
-4.Ouvrir le fichier "index.html" dans un navigateur Internet.
-
+1. Installer [Visual Studio Code](https://code.visualstudio.com/) et l'extension Live Server.
+2. Télécharger les fichiers [index.html](index.html), [script.js](script.js), [style.css](style.css) et [51_csv_final.csv](51_csv_final.csv).
+3. Ouvrir ces fichiers via Visual Studio Code.
+4. Ouvrir "index.html" dans un navigateur Internet via le bouton _go live_.
 
 ## Outils utilisés utilisés
 <a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
 Le traitement des données s'est fait via excel et la visualisation a été réalisée en utilisant la librairie [d3.js](https://d3js.org/).
-
 
 ## Contexte du projet
 Ce projet a été réalisé par Théo Rochat dans le cadre du cours de _Visualisation de données (SP22)_ donné par Isaac Pante à l'Université de Lausanne.
