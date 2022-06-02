@@ -1,0 +1,9 @@
+svg {
+    background-color: #ffffff;
+    margin: 0px;
+    border: 1px solid;
+    user-select: none
+}
+.highlightedBar {
+    color: #750c0c;
+}
