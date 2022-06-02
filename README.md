@@ -2,7 +2,7 @@
 Visualisation des votes "dissidents" des conseiller nationaux par rapport à leur groupe parlementaire. Les données sont constituées des treize premières sessions parlementaire de la 51ème législature ( 2 décembre 2019 - 18 mars 2022).
 
 ## Description
-
+Qui sont les parlementaires qui votent le plus souvent différement de leur groupe parlementaire ? Certains partis sont-ils plus discpiplinés que d'autres ? Les conseillières nationales sont-elles plus dissidentes car minoritaire ? De même pour les élus de langue maternelle française ou italienne ? Tant de réponses auquel tente de répondre cette visualisation, via la représentation graphique de l'ensemble des conseillers nationaux en fonction du nombre de fois où ils ont votés différement de l'avis majoritaire de leur groupe parlementaire. Pour rendre plus lisible les données la visualisation possède des filtres pour chaque groupe parlementaire et pour les genres. Lors du survol d'un cercle une infobulle se déploie pour permettre d'identifier chaque parlementaire. 
 ![alt text](img/img1.PNG "exemple")
 
 
