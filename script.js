@@ -4,7 +4,7 @@ d3.selection.prototype.moveToFront = function() {
     });
   }; 
 
-d3.csv('Données/51_csv_final.csv',function(d){
+d3.csv('./Données/51_csv_final.csv',function(d){
     return {
                nom : d.nom,
                genre : d.genre,
