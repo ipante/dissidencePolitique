@@ -4,9 +4,6 @@ svg {
     border: 1px solid;
     user-select: none
 }
-.highlightedBar {
-    color: #750c0c;
-}
 .fa {
   padding: 20px;
   font-size: 30px;
