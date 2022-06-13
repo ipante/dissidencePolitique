@@ -34,7 +34,6 @@ Quelques limites du projet un peu en vrac :
   - S'abstenir ou voter l'inverse de son parti n'ont pas la même signification en politique mais sont comptabilisés de manière identique dans le projet.
   - La visualisation est un peu concentrée à cause des valeurs extrêmes des trois membres du parti évangélique suisse qui font partie du groupe M-E (le groupe du PDC). Les autres membres de "petits partis" à l'intérieur des groupes parlementaires n'ont toutefois pas automatiquement des nombres de votes dissidents extrêmes. 
   - La détermination de l'existence d'un avis majoritaire est arbitraire. J'ai choisi 66% après avoir consulté mon entourage et des politiciens locaux mais un autre seuil aurait été envisageable. 
-  - 
 
 ## Procédure d'installation
 1. Installer [Visual Studio Code](https://code.visualstudio.com/) et l'extension Live Server.
