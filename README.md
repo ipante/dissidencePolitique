@@ -12,7 +12,7 @@ Les votes des conseillers nationaux sont en libre téléchargement en format XLS
 
 ### Traitement des données
 La première étape a été de compter pour chaque groupe parlementaire et pour chaque votation, le nombre de voix exprimées en faveur du texte, en sa défaveur et le nombre d'abstention. Il a fallu ensuite déterminer quel sous-groupe _(Oui / Non / Abstention)_ a recueilli le plus grand nombre de voix au sein de chaque groupe parlementaire afin de pouvoir déduire les personnes ayant exprimé une divergence. La dernière étape a été de dégager l'existence ou non d'une "consigne de vote" (cf. [méthodologie](#Méthodologie)) pour ensuite créer la liste des personnes s'étant exprimées contre celle-ci. 
-Pour plus d'informations, les résultats de l'analyse pour la [13ème session parlementaire](5113_prêt.xlsb.xlsx) sont disponibles en guise d'exemple.
+Pour plus d'informations, les résultats de l'analyse pour la [13ème session parlementaire](5113_prêt.xlsb.xlsx) sont disponible en guise d'exemple.
 
 ### Quelques nombres 
 | Éléments | Nombre |
